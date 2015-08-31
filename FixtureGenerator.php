@@ -7,16 +7,14 @@
 namespace understeam\fixture;
 
 use Yii;
-use yii\base\InvalidConfigException;
 use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;
 use yii\gii\CodeFile;
 use yii\gii\Generator;
 use yii\helpers\ArrayHelper;
-use yii\helpers\VarDumper;
 
 /**
- * Class FixtureGenerator TODO: Write class description
+ * Implements main logic of fixture generation
  * @author Anatoly Rugalev
  * @link https://github.com/AnatolyRugalev
  */
