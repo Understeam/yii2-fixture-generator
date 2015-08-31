@@ -1,0 +1,24 @@
+{
+    "name": "understeam/yii2-fixture-generator",
+    "description": "gii tool for generate fixtures with relational data",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension"],
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Anatoly Rugalev",
+            "email": "anatoly.rugalev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "understeam\\fixture\\": ""
+        }
+    },
+	"extra": {
+	   "bootstrap": "understeam\\fixture\\Bootstrap"
+	}
+}
