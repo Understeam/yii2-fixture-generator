@@ -74,6 +74,7 @@ PHP;
                     'modelClass',
                     'relationDepth',
                     'generationDepth',
+                    'fixturesDataPath',
                     'strategy',
                     'query',
                 ],
